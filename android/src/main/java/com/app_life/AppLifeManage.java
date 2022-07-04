@@ -28,6 +28,7 @@ public class AppLifeManage implements FlutterPlugin, MethodCallHandler {
         channel.setMethodCallHandler(null);
     }
     public static void registerLife(LifeEnum lifeEnum) {
+        if(channel!=null)
         channel.invokeMethod(lifeEnum.name(),null);
     }
 

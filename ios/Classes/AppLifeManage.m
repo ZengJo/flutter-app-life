@@ -1,13 +1,13 @@
-#import "AppLifePlugin.h"
+#import "AppLifeManage.h"
 
-@implementation AppLifePlugin
+@implementation AppLifeManage
 FlutterMethodChannel* channel;
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
       channel = [FlutterMethodChannel
       methodChannelWithName:@"app_life"
             binaryMessenger:[registrar messenger]];
-  AppLifePlugin* instance = [[AppLifePlugin alloc] init];
+  AppLifeManage* instance = [[AppLifeManage alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 

@@ -1,8 +1,7 @@
 name: app_life
-description: A new flutter plugin project.
+description: Native lifecycle functions that support iOS and Android, different from WidgetBindings that come with Flutter
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/ZengJo/flutter-app-life.git
 environment:
   sdk: ">=2.16.2 <3.0.0"
   flutter: ">=2.5.0"
@@ -29,7 +28,7 @@ flutter:
     platforms:
       android:
         package: com.app_life
-        pluginClass: AppLifePlugin
+        pluginClass: AppLifeManage
       ios:
         pluginClass: AppLifePlugin
 

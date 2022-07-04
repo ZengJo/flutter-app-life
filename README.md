@@ -1,3 +1,3 @@
-原生的生命周期函数，支持 iOS 和 Android，不同于 flutter 中自带的 WidgetBindings
+Native lifecycle functions that support iOS and Android, different from WidgetBindings that come with Flutter
 WidgetBindings
-Android/IOS原生生命周期
+Android/IOS native life cycle

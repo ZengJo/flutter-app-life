@@ -1,6 +1,6 @@
 #import <Flutter/Flutter.h>
 
-@interface AppLifePlugin : NSObject<FlutterPlugin>
+@interface AppLifeManage : NSObject<FlutterPlugin>
 
 //#define ON_CREATE  @"ON_CREATE"
 //#define ON_START  @"ON_START"
