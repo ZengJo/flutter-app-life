@@ -1,6 +1,6 @@
 name: app_life
 description: Native lifecycle functions that support iOS and Android, different from WidgetBindings that come with Flutter
-version: 0.0.1
+version: 0.0.4
 homepage: https://github.com/ZengJo/flutter-app-life.git
 environment:
   sdk: ">=2.16.2 <3.0.0"
@@ -13,7 +13,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

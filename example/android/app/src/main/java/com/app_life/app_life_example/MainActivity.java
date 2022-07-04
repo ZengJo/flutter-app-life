@@ -11,7 +11,7 @@ import com.app_life.AppLifeManage;
 
 import io.flutter.embedding.android.FlutterActivity;
 
-public class MainActivity extends FlutterActivity implements LifecycleOwner {
+public class MainActivity extends FlutterActivity {
     private  static String TAG=MainActivity.class.getName();
 
     @Override
